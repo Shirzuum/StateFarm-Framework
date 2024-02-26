@@ -11,6 +11,7 @@ public class CommonAction {
 			System.out.println("Exception is"+ e);
 		}
 	}
+	//
 	public static void pause(long sec) {
 		try {
 			Thread.sleep(sec*1000);
