@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-25T17:41:37 EST" name="Default suite" finished-at="2024-02-25T17:41:46 EST" duration-ms="9189">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T17:41:37 EST" name="Default test" finished-at="2024-02-25T17:41:46 EST" duration-ms="9189">
+      <class name="pages.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.HomePageTest@71ba6d4e]" started-at="2024-02-25T17:41:37 EST" name="setUp" finished-at="2024-02-25T17:41:42 EST" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inputTextInZipCodeField()[pri:0, instance:pages.HomePageTest@71ba6d4e]" started-at="2024-02-25T17:41:42 EST" name="inputTextInZipCodeField" finished-at="2024-02-25T17:41:46 EST" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTextInZipCodeField -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@71ba6d4e]" started-at="2024-02-25T17:41:46 EST" name="tearUp" finished-at="2024-02-25T17:41:46 EST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- pages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
