@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,6 +48,29 @@ public class HomePage {
 		zipCodeField.sendKeys("11372");
 		pause(4);
 	}
+	public void use_of_isDisplayed_in_zipcode_field_01() {
+		boolean elementDisplayed=driver.findElement(By.xpath("//input[@name='zipCode'and @id='quote-main-zip-code-input']")).isDisplayed();
+		System.out.println(elementDisplayed);
+	}
+	
+	public void use_of_isDisplayed_in_zipcode_field_02() {
+		elementDisplayed(zipCodeField);
+		clickElement(zipCodeField);
+		inputText(zipCodeField,"11455");
+		pause(3);
+	}
+	public void use_of_isEnabled_in_zipcode_field() {
+		elementEnabled(logoField);
+		clickElement(logoField);
+		pause(3);
+	}
+	public void use_of_isSelected_in_zipcode_field() {
+		elementSelected(zipCodeField);
+		clickElement(zipCodeField);
+		inputText(zipCodeField,"11455");
+		pause(3);
+	}
+	
 	
 
 }

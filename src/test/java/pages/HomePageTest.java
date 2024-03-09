@@ -1,11 +1,7 @@
 package pages;
 
-import static common.CommonAction.*;
-
 import org.testng.annotations.Test;
-
 import baseUtil.BaseClass;
-import net.bytebuddy.agent.builder.AgentBuilder.CircularityLock.Default;
 
 public class HomePageTest extends BaseClass {
 
@@ -23,9 +19,25 @@ public class HomePageTest extends BaseClass {
 	public void clickZipCodeField() {
 		homePage.clickZipCodeField();
 	}
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void inputTextInZipCodeField() {
 		homePage.inputTextInZipCodeField();
+	}
+	@Test(enabled = false)
+	public void use_of_isDisplayed_in_zipcode_field_01() {
+		homePage.use_of_isDisplayed_in_zipcode_field_01();
+	}
+	@Test(enabled = false)
+	public void use_of_isDisplayed_in_zipcode_field_02_test() {
+		homePage.use_of_isDisplayed_in_zipcode_field_02();
+	}
+	@Test(enabled = false)
+	public void use_of_isEnabled_in_zipcode_field() {
+		homePage.use_of_isEnabled_in_zipcode_field();
+	}
+	@Test(enabled = true)
+	public void use_of_isSelected_in_zipcode_field() {
+		homePage.use_of_isSelected_in_zipcode_field();
 	}
 	
 }
